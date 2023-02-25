@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WesaamEcomerce.EntityFramework", "backend\WesaamEcomerce.EntityFramework\WesaamEcomerce.EntityFramework.csproj", "{E3F4115E-ABD3-4C83-9406-CF0D85B81494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WesaamEcomerce.EntityFramework", "WesaamEcomerce.EntityFramework\WesaamEcomerce.EntityFramework.csproj", "{E3F4115E-ABD3-4C83-9406-CF0D85B81494}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WesaamEcomerce.API", "backend\WesaamEcomerce.API\WesaamEcomerce.API.csproj", "{513E9753-74A8-4900-872A-0F4F1FD91732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WesaamEcomerce.API", "WesaamEcomerce.API\WesaamEcomerce.API.csproj", "{513E9753-74A8-4900-872A-0F4F1FD91732}"
 	ProjectSection(ProjectDependencies) = postProject
 		{088844BE-F84D-46A6-BE3C-CEEBDC4A8791} = {088844BE-F84D-46A6-BE3C-CEEBDC4A8791}
 	EndProjectSection

@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\WesaamEcomerce.Common\WesaamEcomerce.Common.csproj" />
+    <ProjectReference Include="..\WesaamEcomerce.Common\WesaamEcomerce.Common.csproj" />
   </ItemGroup>
 
 </Project>

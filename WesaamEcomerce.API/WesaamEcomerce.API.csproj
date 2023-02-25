@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\WesaamEcomerce.Services\WesaamEcomerce.Services.csproj" />
+    <ProjectReference Include="..\WesaamEcomerce.Services\WesaamEcomerce.Services.csproj" />
     <ProjectReference Include="..\WesaamEcomerce.EntityFramework\WesaamEcomerce.EntityFramework.csproj" />
   </ItemGroup>
 
