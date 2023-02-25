@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WesaamEcomerce.API", "WesaamEcomerce.API\WesaamEcomerce.API.csproj", "{CAE72C86-3876-41AB-B3B2-FDED4955DB33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WesaamEcomerce.EntityFramework", "backend\WesaamEcomerce.EntityFramework\WesaamEcomerce.EntityFramework.csproj", "{E3F4115E-ABD3-4C83-9406-CF0D85B81494}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WesaamEcomerce.EntityFramework", "WesaamEcomerce.EntityFramework\WesaamEcomerce.EntityFramework.csproj", "{8A2B11D1-9D75-4868-AF30-622B03B169D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WesaamEcomerce.API", "backend\WesaamEcomerce.API\WesaamEcomerce.API.csproj", "{513E9753-74A8-4900-872A-0F4F1FD91732}"
+	ProjectSection(ProjectDependencies) = postProject
+		{088844BE-F84D-46A6-BE3C-CEEBDC4A8791} = {088844BE-F84D-46A6-BE3C-CEEBDC4A8791}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WesaamEcomerce.Common", "WesaamEcomerce.Common\WesaamEcomerce.Common.csproj", "{EFEC77CF-A45F-4676-92A9-DB99288F83DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WesaamEcomerce.Services", "WesaamEcomerce.Services\WesaamEcomerce.Services.csproj", "{088844BE-F84D-46A6-BE3C-CEEBDC4A8791}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +20,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CAE72C86-3876-41AB-B3B2-FDED4955DB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAE72C86-3876-41AB-B3B2-FDED4955DB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAE72C86-3876-41AB-B3B2-FDED4955DB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAE72C86-3876-41AB-B3B2-FDED4955DB33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A2B11D1-9D75-4868-AF30-622B03B169D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A2B11D1-9D75-4868-AF30-622B03B169D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A2B11D1-9D75-4868-AF30-622B03B169D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A2B11D1-9D75-4868-AF30-622B03B169D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F4115E-ABD3-4C83-9406-CF0D85B81494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F4115E-ABD3-4C83-9406-CF0D85B81494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F4115E-ABD3-4C83-9406-CF0D85B81494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F4115E-ABD3-4C83-9406-CF0D85B81494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513E9753-74A8-4900-872A-0F4F1FD91732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513E9753-74A8-4900-872A-0F4F1FD91732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513E9753-74A8-4900-872A-0F4F1FD91732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513E9753-74A8-4900-872A-0F4F1FD91732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFEC77CF-A45F-4676-92A9-DB99288F83DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFEC77CF-A45F-4676-92A9-DB99288F83DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFEC77CF-A45F-4676-92A9-DB99288F83DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFEC77CF-A45F-4676-92A9-DB99288F83DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088844BE-F84D-46A6-BE3C-CEEBDC4A8791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088844BE-F84D-46A6-BE3C-CEEBDC4A8791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088844BE-F84D-46A6-BE3C-CEEBDC4A8791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088844BE-F84D-46A6-BE3C-CEEBDC4A8791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

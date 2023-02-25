@@ -9,11 +9,9 @@ namespace WesaamEcomerce.EntityFramework
         {
             DbContextOptionsBuilder<ApplicationDbContext> builder = new DbContextOptionsBuilder<ApplicationDbContext>();
 
-            var context = new ApplicationDbContext(
-                builder
-                .UseNpgsql("")
-                .UseSnakeCaseNamingConvention()
-                .Options);
+            DbContextOptionsConfigurer.Configure(builder, "Host=localhost;Database=WesaamEcomerceDB;Username=postgres;Password=password");
+
+            var context = new ApplicationDbContext(builder.Options);
 
             return context;
         }
